@@ -8,11 +8,11 @@ This Python project implements the Simple Moving Average (SMA) indicator used in
 
 * Calculates SMA for two window sizes and uses their crossover
 * Working - 
-  *Calculates both short-term and long-term SMAs for the closing prices in the provided data.
-  *Generates buy/sell signals based on the crossover of the two SMAs:
-  *Buy signal: When the short-term SMA crosses above the long-term SMA.
+  * Calculates both short-term and long-term SMAs for the closing prices in the provided data.
+  * Generates buy/sell signals based on the crossover of the two SMAs:
+  * Buy signal: When the short-term SMA crosses above the long-term SMA.
   Sell signal: When the short-term SMA crosses below the long-term SMA.
-  *Tracks performance metrics including total return and number of trades.
+  * Tracks performance metrics including total return and number of trades.
 
 ## Installation:
 
@@ -39,10 +39,10 @@ pip install python-dotenv mysql-connector-python
 
 Create a .env file in the project directory and set the following environment variables: 
 For connecting with the MySQL DB - 
- * host = MySQL host server (usually localhost for the local server)
- * user = MySQL username
- * password = MySQL password for "user"
- * database = Name of the MySQL database
+* host = MySQL host server (usually localhost for the local server)
+* user = MySQL username
+* password = MySQL password for "user"
+* database = Name of the MySQL database
 
 User variables - 
 * window_size_long = The long window to watch for SMA swings
