@@ -1,10 +1,10 @@
 # SMA-Python
 
-**#Description:**
+## Description:
 
 This Python project implements the Simple Moving Average (SMA) indicator used in technical analysis. It calculates the SMA for a given time series of closing prices.
 
-**## Strategy used:**
+## Strategy used:
 
 * Calculates SMA for two window sizes and uses their crossover
 * Working - 
@@ -14,7 +14,7 @@ This Python project implements the Simple Moving Average (SMA) indicator used in
   Sell signal: When the short-term SMA crosses below the long-term SMA.
   *Tracks performance metrics including total return and number of trades.
 
-**## Installation:**
+## Installation:
 
 This project requires Python 3.x. You can install it by running the following command in your terminal:
 
@@ -27,7 +27,7 @@ Installation of the modules required:
 pip install python-dotenv mysql-connector-python
 ```
 
-**## Usage:**
+## Usage:
 
 1. **Clone the repository:**
 
@@ -56,11 +56,11 @@ Add the .csv file to the Data folder and update its path in the main file.
    
 Use the main.py script to get the values of total returns and number of trades performed for the given strategy. Tune the values of shorter and longer windows to get a varied output. 
 
-**## Contributing:**
+## Contributing:
 
 We welcome contributions to this project! Feel free to fork the repository, make changes, and submit a pull request.
 
-**## License:**
+## License:
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
